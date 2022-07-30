@@ -6,29 +6,31 @@
 [![Releases](https://img.shields.io/github/v/release/MatsuriDayo/Matsuri)](https://github.com/MatsuriDayo/Matsuri/releases)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-orange.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-    alt="Get it on F-Droid"
-    height="80">](https://f-droid.org/packages/moe.matsuri.lite)
-
 适用于 Android 的代理工具链，用 Kotlin 编写。
 
 A proxy toolchain for Android, written in Kotlin.
 
-## 喵 Nya
+## 下载 / Downloads
 
-这是 SagerNet 的一个分支，部分功能不同，改进了部分情况下的体验。支持高级插件。
+### GitHub Releases
 
-This is a fork of SagerNet with different features and improved experience in some situations. With "advanced plugin" support.
+[![GitHub All Releases](https://img.shields.io/github/downloads/Matsuridayo/Matsuri/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/Matsuridayo/Matsuri/releases)
 
-## 更改记录和发布频道 Changelog and Telegram channel
+[下载](https://github.com/Matsuridayo/Matsuri/releases)
+
+### F-Droid
+
+[Get it on F-Droid](https://f-droid.org/packages/moe.matsuri.lite)
+
+## 更改记录 & 发布频道 / Changelog & Telegram channel
 
 https://t.me/Matsuridayo
 
-## 文档 Documents
+## 项目主页 & 文档 / Homepage & Documents
 
 https://matsuridayo.github.io
 
-## 代理 Proxy
+## 代理 / Proxy
 
 * SOCKS (4/4a/5)
 * HTTP(S)
@@ -46,9 +48,15 @@ https://matsuridayo.github.io
 
 * Hysteria faketcp ( hysteria-plugin )
 
-### 订阅 Subscription
+### 订阅 / Subscription
 
-* 原始：所有广泛使用的格式（base64 clash 或原始配置）
-* Raw: All widely used formats (base64, clash or origin configuration)
+* Raw: some widely used formats (like shadowsocks, clash and v2rayN)
+* 原始格式：一些广泛使用的格式（如 shadowsocks、clash 和 v2rayN）
 * [Open Online Config](https://github.com/Shadowsocks-NET/OpenOnlineConfig)
 * [Shadowsocks SIP008](https://shadowsocks.org/en/wiki/SIP008-Online-Configuration-Delivery.html)
+
+## SagerNet
+
+本项目源于[SagerNet](https://github.com/SagerNet/SagerNet)，并做了很多优化和修改。由于维护者的精力有限，SagerNet的一些新功能可能不会被合并到这个项目中。
+
+This project is derived from [SagerNet](https://github.com/SagerNet/SagerNet) and has many optimizations and modifications. Some new features of SagerNet may not be merged into this project due to the limited energy of maintainers.
